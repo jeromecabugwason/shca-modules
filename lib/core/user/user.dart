@@ -1,14 +1,12 @@
 class User {
-  String _uid;
+  String _id;
   String _username;
 
-  User(this._username, this._uid);
+  User(this._username, this._id);
 
-  String get getUid => _uid;
-
-  set setUid(String uid) => _uid = uid;
-
-  set setUsername(String username) => _username = username;
-
+  String get getUid => _id;
   String get getUsername => _username;
+
+  set setUid(String id) => _id = id;
+  set setUsername(String username) => _username = username;
 }
